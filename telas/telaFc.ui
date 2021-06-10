@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Farenheint para Celsius</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="esse">
@@ -107,7 +107,7 @@
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QPushButton" name="converter_2">
+   <widget class="QPushButton" name="converter">
     <property name="geometry">
      <rect>
       <x>160</x>
