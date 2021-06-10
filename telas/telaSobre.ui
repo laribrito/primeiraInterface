@@ -14,6 +14,10 @@
    <string>Sobre</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background: #272727; color: #D64933;
+</string>
+   </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>

@@ -30,6 +30,16 @@
     <normaloff>../../../../Imagens/Kdenlive/outros/whatsapp.png</normaloff>../../../../Imagens/Kdenlive/outros/whatsapp.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background: #272727; color: #D64933;
+</string>
+   </property>
    <widget class="QPushButton" name="fc">
     <property name="geometry">
      <rect>
@@ -38,6 +48,12 @@
       <width>441</width>
       <height>33</height>
      </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: 7C7C7C; color: #D64933;</string>
     </property>
     <property name="text">
      <string>Farenheint para Celsius</string>
@@ -55,6 +71,8 @@
     <property name="font">
      <font>
       <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="contextMenuPolicy">
@@ -76,6 +94,9 @@
       <height>33</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background: 7C7C7C; color: #D64933;</string>
+    </property>
     <property name="text">
      <string>Celsius para Farenheint</string>
     </property>
@@ -88,6 +109,9 @@
       <width>51</width>
       <height>21</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: 7C7C7C; color: #D64933;</string>
     </property>
     <property name="text">
      <string>Sobre</string>
