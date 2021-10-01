@@ -76,7 +76,7 @@
    <widget class="QLabel" name="f">
     <property name="geometry">
      <rect>
-      <x>230</x>
+      <x>30</x>
       <y>30</y>
       <width>191</width>
       <height>31</height>
@@ -102,7 +102,7 @@
    <widget class="QLabel" name="c">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>180</x>
       <y>30</y>
       <width>241</width>
       <height>31</height>
