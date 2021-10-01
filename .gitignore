@@ -1,2 +1,8 @@
 #pasta de cache do python
 __pycache__
+
+#ambiente virtual
+venv
+
+#imagens do flatpak
+icons
