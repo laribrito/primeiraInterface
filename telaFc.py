@@ -24,5 +24,6 @@ class Fc(QtWidgets.QMainWindow):
 		self.f = self.esse.text()
 		self.f = float(self.f)
 		self.cels = 5 * ((self.f-32) / 9)
+		self.cels = round(self.cels, 2)
 		self.cels = str(self.cels)
 		self.saida.setText(self.cels)

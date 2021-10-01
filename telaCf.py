@@ -1,5 +1,4 @@
-from PyQt5 import QtWidgets, uic, QtCore
-from PyQt5.QtCore import QStringListModel
+from PyQt5 import QtWidgets, uic
 
 class Cf(QtWidgets.QMainWindow):
 	def __init__(self):
@@ -25,5 +24,6 @@ class Cf(QtWidgets.QMainWindow):
 		self.c = self.esse.text()
 		self.c = float(self.c)
 		self.faren = ((self.c * 9)/5) + 32
+		self.faren = round(self.faren, 2)
 		self.faren = str(self.faren)
 		self.saida.setText(self.faren)
