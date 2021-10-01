@@ -13,10 +13,12 @@
   <property name="windowTitle">
    <string>Sobre</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgb(238, 238, 236); color: rgb(46, 52, 54)</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">background: #272727; color: #D64933;
-</string>
+    <string notr="true"/>
    </property>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -35,6 +37,9 @@
     </property>
     <property name="autoFillBackground">
      <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: black</string>
     </property>
     <property name="lineWidth">
      <number>7</number>

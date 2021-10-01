@@ -13,10 +13,12 @@
   <property name="windowTitle">
    <string>Farenheint para Celsius</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background: rgb(238, 238, 236); color: rgb(46, 52, 54)</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">background: #272727; color: #D64933;
-</string>
+    <string notr="true">background: rgb(238, 238, 236); color: rgb(46, 52, 54)</string>
    </property>
    <widget class="QLineEdit" name="esse">
     <property name="geometry">
@@ -130,7 +132,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: 7C7C7C; color: #D64933;</string>
+     <string notr="true">color: black</string>
     </property>
     <property name="text">
      <string>Converter</string>
@@ -146,7 +148,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: 7C7C7C; color: #D64933;</string>
+     <string notr="true">color: black</string>
     </property>
     <property name="text">
      <string>Voltar</string>
