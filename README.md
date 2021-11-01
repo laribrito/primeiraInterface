@@ -1,5 +1,5 @@
 # Conversor de Temperatura
-Esta é minha primeira interface gráfica, através do PyQt5. O programa foi criado a partir do exercício 09 e 10 da lista de exercícios sequenciais do Python
+Esta é minha primeira interface gráfica através do PyQt5. O programa foi criado a partir do exercício 09 e 10 da lista de exercícios sequenciais do Python
 
 ## Para rodar na sua máquina
 
